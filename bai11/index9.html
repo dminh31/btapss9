@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let toán=+prompt("điểm toán")
+        let lí=+prompt("điểm lí")
+        let hóa=+prompt("điểm hóa")
+        let văn=+prompt("điểm văn")
+        let sử=+prompt("điểm sử")
+        let địa=+prompt("điểm địa")
+        let tb=(toán+lí+hóa+văn+sử+địa) / 6
+        if(tb<5){
+            alert("yếu")
+        }else if(tb>=5&& tb<=6.4){
+            alert("trung bình")
+        }else if(tb>=6.5 && tb<=7.9){
+            alert("khá")
+        }else if(tb>=8.0 && tb<=10){
+            alert("giỏi")
+        }
+    </script>
+</body>
+</html>
